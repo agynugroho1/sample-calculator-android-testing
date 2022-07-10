@@ -33,4 +33,7 @@ public class BasePageObject {
     return find(by).isDisplayed();
   }
 
+  public boolean isEnabled(By by){
+    return find(by).isEnabled();
+  }
 }
